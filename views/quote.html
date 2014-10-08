@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block title %}Listen to {{ author.name }}{% endblock %}
+
+{% block content %}
+  <p>{{ author.quote }}</p>
+  <h3 class="quote-name"> - {{ author.name }}</h3>
+  <div class="back-link">
+    <a href="/"><span class="hi-lite">&lt</span> Back</a>
+  </div>
+{% endblock %}

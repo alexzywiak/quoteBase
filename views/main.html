@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block title %}Listen to Smart Folks{% endblock %}
+
+{% block content %}
+  <h1 class='title-block'><span class="title-count">{{ count }} Smart Folk</span><br><span class="title-quote">You Should Listen To</span></h1>
+  <ul>
+    {% for author in smartFolks %}
+    <li class="author-link"><span class="hi-lite">&lt</span><a href="/quote/{{author.tag}}">{{ author.name }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}

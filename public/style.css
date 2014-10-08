@@ -1,0 +1,82 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid white;
+}
+
+a:hover{
+  color: red;
+  border-bottom: 1px solid red;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+footer{
+  height: 240px;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+  text-transform: uppercase;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+h1{
+  font-size: 72px;
+  line-height: 1em;
+}
+
+h3{
+  font-size: 18px;
+}
+
+.title-block{
+  font-size: 96px;
+  width: 720px;
+  font-weight: 900;
+}
+
+h1::first-letter, p::first-letter, .hi-lite{
+  color: red;
+}
+
+.back-link{
+  margin-top: 196px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 4em;
+  margin-bottom: 1.5em;
+  font-size: 48px;
+  line-height: 1.5em;
+  text-indent: 1em;
+}
+
+ul{
+  padding: 0;
+  margin-top: 1em;
+  list-style: none;
+}
+
+.author-link{
+  margin-top: 1em;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+}
+
